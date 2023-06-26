@@ -18,3 +18,25 @@ You have been hired to work on a commission calculator for a sales team. The com
 - Please leave any comments that will help the reader understand important decisions you made, shortcuts taken, or things you would do differently in the future.
 - Please talk out loud while pairing, explaining your intentions and decision-making.
 - Write tests and commit messages as you would on the job.
+
+## Comission Rules
+
+The following are the commission rules we'll build together during the interview:
+
+You have been hired to work on a commission calculator for a sales team. The commission is calculated based on the total sales made by the team and the individual sales made by each sales representative. The commission rates are as follows:
+
+    If the total sales made by the team are less than $100,000, the commission rate is 10%.
+    If the total sales made by the team are between $100,000 and $200,000, the commission rate is 15%.
+    If the total sales made by the team are greater than $200,000, the commission rate is 20%.
+
+In addition, each sales representative has an individual commission rate based on their performance:
+
+    If the sales representative's individual sales are less than $10,000, their commission rate is 5%.
+    If the sales representative's individual sales are between $10,000 and $20,000, their commission rate is 7.5%.
+    If the sales representative's individual sales are greater than $20,000, their commission rate is 10%.
+
+The commission for each sales representative is calculated by the following formula:
+
+(sales_representative.sales * individual_commission_rate * team_commission_rate)
+
+For example, if a Sales Representative made $5,000 and the team made $50,000 the calculation would ($5,000 * 5% * 10%) for a commission of $25.
